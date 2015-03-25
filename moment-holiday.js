@@ -271,7 +271,7 @@
   };
 
   moment.fn.isSunday = function() {
-    return this.isoWeekday() === 0 || this.isoWeekday === 7;
+    return this.isoWeekday() === 0 || this.isoWeekday() === 7;
   };
   moment.fn.isMonday = function() {
     return this.isoWeekday() === 1;
